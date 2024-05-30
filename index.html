@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="content">
+        <i class="ri-arrow-left-fill"></i>
+        <div class="left">
+          <p>Graphics</p>
+          <p>Audio</p>
+          <p>Keyboard</p>
+          <p>Game Play</p>
+          <p>Language</p>
+          <p>Tutorial & Tips</p>
+        </div>
+        <div class="right">
+          <div class="head">
+            <h1>AUDIO SETTINGS</h1>
+            <div class="icons">
+              <i class="ri-user-line"></i>
+              <p>maximus</p>
+            </div>
+          </div>
+          <div class="vol">
+            <h2>VOLUME</h2>
+          </div>
+          <div class="volume-container">
+            <label for="volume">Master Volume :</label>
+            <input
+              type="range"
+              id="volume"
+              name="volume"
+              min="0"
+              max="100"
+              value="50"
+            />
+            <h5>57%</h5>
+          </div>
+          <div class="volume-container">
+            <label for="volume">Object Music :</label>
+            <input
+              type="range"
+              id="volume"
+              name="volume"
+              min="0"
+              max="100"
+              value="50"
+            />
+            <h5>42%</h5>
+          </div>
+          <div class="volume-container">
+            <label for="volume">Music :</label>
+            <input
+              type="range"
+              id="volume"
+              name="volume"
+              min="0"
+              max="100"
+              value="50"
+            />
+            <h5>89%</h5>
+          </div>
+          <div class="volume-container">
+            <label for="volume">Voices :</label>
+            <input
+              type="range"
+              id="volume"
+              name="volume"
+              min="0"
+              max="100"
+              value="50"
+            />
+            <h5>100%</h5>
+          </div>
+          <div class="volume-container">
+            <label for="volume">Sound Effects :</label>
+            <input
+              type="range"
+              id="volume"
+              name="volume"
+              min="0"
+              max="100"
+              value="50"
+            />
+            <h5>21%</h5>
+          </div>
+          <div class="vol">
+            <h2>OTHER</h2>
+          </div>
+          <div class="focus">
+            <div class="one">
+              <label for="">Audio Focus</label> <input type="checkbox" checked />
+            </div>
+            <div class="one two">
+              <label for="">Enable Mood <br>Sting</label> <input type="checkbox" />
+            </div>
+            <div class="one">
+              <label for="">Match Speed <br> Stereo Music</label> <input type="checkbox" checked/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <button>Revert Changes</button>
+        <button>Apply Changes</button>
+      </div>
+    </div>
+  </body>
+</html>
